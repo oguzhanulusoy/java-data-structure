@@ -1,0 +1,23 @@
+Linked lists are useful to implement stacks and queues in situations where their size
+is subject to vary. Each node in the linked list can be pushed or popped without disturbing
+the majority of the nodes. Same goes for insertion/deletion of nodes somewhere in the middle.
+
+More details about LinkedList is here: https://en.wikipedia.org/wiki/Linked_list
+
++--------------------------------------------------------------------------+
+|                                                                          |
+|                             TIME COMPLEXITY                              |
+|                                                                          |
++--------------------------------------+-----------------------------------+
+|                                      |                                   |
+|             AVERAGE CASE             |            WORST CASE             |
+|                                      |                                   |
++--------------------------------------+-----------------------------------+
+| Access: O(n)                         | O(n)                              |
++--------------------------------------+-----------------------------------+
+| Search: O(n)                         | O(n)                              |
++--------------------------------------+-----------------------------------+
+| Insertion: O(1)                      | O(1)                              |
++--------------------------------------+-----------------------------------+
+| Deletion: O(1)                       | O(1)                              |
++--------------------------------------+-----------------------------------+
