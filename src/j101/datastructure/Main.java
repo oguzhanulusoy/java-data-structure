@@ -3,6 +3,9 @@ import j101.datastructure.run.LinkedListRun;
 
 import java.util.Scanner;
 
+/**
+ * Main for all data structure
+ */
 public class Main {
 
     enum MenuOptions {

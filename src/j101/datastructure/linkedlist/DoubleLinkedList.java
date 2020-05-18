@@ -1,5 +1,8 @@
 package j101.datastructure.linkedlist;
 
+/**
+ * DoubleLinkedList
+ */
 public class DoubleLinkedList {
 
     DoubleNode first;

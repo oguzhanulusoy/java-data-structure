@@ -1,5 +1,8 @@
 package j101.datastructure.linkedlist;
 
+/**
+ * Node
+ */
 public class Node {
     private int data;
     private Node next;

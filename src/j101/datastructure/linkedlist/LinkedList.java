@@ -1,5 +1,8 @@
 package j101.datastructure.linkedlist;
 
+/**
+ * LinkedList
+ */
 public class LinkedList {
 
     Node FIRST, LAST;

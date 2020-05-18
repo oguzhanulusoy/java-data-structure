@@ -4,7 +4,9 @@ import j101.datastructure.linkedlist.LinkedList;
 import java.util.Random;
 import java.util.Scanner;
 
-// Just single linkedlist is here
+/**
+ * LinkedListRun (Just single linkedlist)
+ */
 public class LinkedListRun {
 
     public static final int LENGTH = 10,

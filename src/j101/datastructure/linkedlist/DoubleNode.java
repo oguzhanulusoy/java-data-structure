@@ -1,5 +1,8 @@
 package j101.datastructure.linkedlist;
 
+/**
+ * DoubleNode
+ */
 public class DoubleNode {
 
     private int data;

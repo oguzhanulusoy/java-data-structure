@@ -1,5 +1,8 @@
 package j101.datastructure.linkedlist;
 
+/**
+ * CircularLinkedList
+ */
 public class CircularLinkedList {
 
     DoubleNode first;
