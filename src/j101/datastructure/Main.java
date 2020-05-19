@@ -1,6 +1,9 @@
 package j101.datastructure;
+import j101.datastructure.run.BstRun;
 import j101.datastructure.run.LinkedListRun;
+import j101.datastructure.run.StackRun;
 
+import java.awt.*;
 import java.util.Scanner;
 
 /**
@@ -10,6 +13,10 @@ public class Main {
 
     enum MenuOptions {
         LINKEDLIST,
+        STACK,
+        BST,
+        QUEUE,
+        HASH,
         BREAK
     }
 
@@ -17,7 +24,10 @@ public class Main {
 
         StringBuilder MENU = new StringBuilder("\n\nMenu options: \n\t");
         MENU.append(MenuOptions.LINKEDLIST + "\n\t");
-        // Replace here new item
+        MENU.append(MenuOptions.STACK + "\n\t");
+        MENU.append(MenuOptions.BST + "\n\t");
+        MENU.append(MenuOptions.QUEUE + "\n\t");
+        MENU.append(MenuOptions.HASH + "\n\t");
         MENU.append(MenuOptions.BREAK + "\n");
         MENU.append("Type an option: ");
         System.out.println(MENU);
@@ -31,6 +41,22 @@ public class Main {
         while (true) {
             if (choice.equals(MenuOptions.LINKEDLIST.toString())) {
                 LinkedListRun.main(args);
+            }
+
+            if (choice.equals(MenuOptions.STACK.toString())) {
+                StackRun.main(args);
+            }
+
+            if (choice.equals(MenuOptions.BST.toString())) {
+                BstRun.main(args);
+            }
+
+            if (choice.equals(MenuOptions.QUEUE.toString())) {
+                //QueueRun.main(args);
+            }
+
+            if (choice.equals(MenuOptions.HASH.toString())) {
+                //HashRun.main(args);
             }
 
             if (choice.equals(MenuOptions.BREAK.toString())) {
