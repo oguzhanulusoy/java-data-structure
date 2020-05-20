@@ -11,6 +11,8 @@ import java.util.Scanner;
  */
 public class StackRun {
 
+    // TODO: Call all Stack methods in StackRun class
+
     public static final int SIZE = 10;
 
     public static StringBuilder MENU;

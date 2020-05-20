@@ -12,6 +12,8 @@ import java.util.Scanner;
  */
 public class BstRun {
 
+    // TODO: Call all Bst methods in BstRun class
+
     public static final int LENGTH = 10,
             IN_RANGE_SIZE = 10;
 

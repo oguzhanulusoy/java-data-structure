@@ -9,6 +9,8 @@ import java.util.Scanner;
  */
 public class LinkedListRun {
 
+    // TODO: Call all Linkedlist methods in LinkedlistRun
+
     public static final int LENGTH = 10,
                             IN_RANGE_SIZE = 10;
 
